@@ -40,3 +40,20 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+---
+
+## Project Files
+
+* .circleci directory and config.yml file therein to test project code
+* model_data directory including a pre-trained, sklearn model
+* output_txt_files directory to store output from Docker and Kubernetes
+* Dockerfile used for building images
+* Makefile to install dependencies (make install) and run lint checks (make lint)
+* README.md containing project summary
+* app.py to get back a prediction and print out result
+* make_prediction.sh for making predictions (./make_prediction.sh)
+* requirements.txt to list project dependencies
+* run_docker.sh for running a container (./run_docker.sh)
+* run_kubernetes.sh to deploy with Kubernetes (./run_kubernetes.sh)
+* upload_docker.sh for uploading an image to docker (./upload_docker.sh)
